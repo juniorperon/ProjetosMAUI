@@ -49,7 +49,7 @@
             <Image
                 HeightRequest="115"
                 Source="logo_green.png"
-                WidthRequest="74" />
+                WidthRequest="74"/>
 
             <Label
                 x:Name="NameApp"
@@ -57,14 +57,15 @@
                 HorizontalOptions="Center"
                 Text="Número da sorte"
                 TextColor="#00AB37"
-                VerticalOptions="Center" />
+                VerticalOptions="Center"/>
 
-            <VerticalStackLayout x:Name="ContainerLuckNumbers" IsVisible="false">
+            <VerticalStackLayout x:Name="ContainerLuckNumbers"
+                    IsVisible="false">
 
                 <Label
-                    Margin="0,0,20,50"
+                    Margin="0,20,0,50"
                     HorizontalOptions="Center"
-                    Text="O número da sorte é: " />
+                    Text="O número da sorte é: "/>
 
                 <HorizontalStackLayout
                     Margin="0,70"
@@ -82,7 +83,7 @@
                             x:Name="LuckNumber01"
                             FontSize="24"
                             Text=""
-                            TextColor="#00AB37" />
+                            TextColor="#00AB37"/>
 
 
 
@@ -99,7 +100,7 @@
                             x:Name="LuckNumber02"
                             FontSize="24"
                             Text=""
-                            TextColor="#00AB37" />
+                            TextColor="#00AB37"/>
 
                     </Border>
 
@@ -112,7 +113,7 @@
                             x:Name="LuckNumber03"
                             FontSize="24"
                             Text=""
-                            TextColor="#00AB37" />
+                            TextColor="#00AB37"/>
 
                     </Border>
 
@@ -127,7 +128,7 @@
                             x:Name="LuckNumber04"
                             FontSize="24"
                             Text=""
-                            TextColor="#00AB37" />
+                            TextColor="#00AB37"/>
 
                     </Border>
 
@@ -142,7 +143,7 @@
                             x:Name="LuckNumber05"
                             FontSize="24"
                             Text=""
-                            TextColor="#00AB37" />
+                            TextColor="#00AB37"/>
 
                     </Border>
 
@@ -157,7 +158,7 @@
                             x:Name="LuckNumber06"
                             FontSize="24"
                             Text=""
-                            TextColor="#00AB37" />
+                            TextColor="#00AB37"/>
 
                     </Border>
 
@@ -170,7 +171,7 @@
                 <Label
                     Margin="0,0,0,50"
                     HorizontalOptions="Center"
-                    Text="Boa sorte!" />
+                    Text="Boa sorte!"/>
 
 
 
@@ -186,7 +187,7 @@
                 x:Name="Botao"
                 Clicked="OnGenerateLuckNumbers"
                 HorizontalOptions="Center"
-                Text="Gerar números da sorte" />
+                Text="Gerar números da sorte"/>
 
 
 
