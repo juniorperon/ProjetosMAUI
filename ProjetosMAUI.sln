@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jogoForca", "jogoForca", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "numeroSorte", "numeroSorte", "{D7B096A8-812A-4F13-81B0-928073E1C2C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "appMVVM", "appMVVM", "{49E67CAB-49A0-44A9-8E55-0B1BECB8F025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appMVVM", "appMVVM\appMVVM.csproj", "{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,12 @@ Global
 		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1C3D6C04-2C48-41D3-8C2B-6FAC627D5B52} = {D7B096A8-812A-4F13-81B0-928073E1C2C9}
 		{645A75FC-7BDF-41AB-83AC-6FD26F40991B} = {73326717-F054-4F5A-B552-F6EB33BD5185}
+		{8FAEC6C9-2A9F-4E74-9DC8-4F754F31956D} = {49E67CAB-49A0-44A9-8E55-0B1BECB8F025}
 	EndGlobalSection
 EndGlobal
