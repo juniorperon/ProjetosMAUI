@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNumeroDaSorte", "AppNumeroDaSorte\AppNumeroDaSorte.csproj", "{1C3D6C04-2C48-41D3-8C2B-6FAC627D5B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppJogoForca", "AppJogoForca\AppJogoForca.csproj", "{645A75FC-7BDF-41AB-83AC-6FD26F40991B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jogoForca", "jogoForca", "{73326717-F054-4F5A-B552-F6EB33BD5185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "numeroSorte", "numeroSorte", "{D7B096A8-812A-4F13-81B0-928073E1C2C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +23,18 @@ Global
 		{1C3D6C04-2C48-41D3-8C2B-6FAC627D5B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C3D6C04-2C48-41D3-8C2B-6FAC627D5B52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C3D6C04-2C48-41D3-8C2B-6FAC627D5B52}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645A75FC-7BDF-41AB-83AC-6FD26F40991B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C3D6C04-2C48-41D3-8C2B-6FAC627D5B52} = {D7B096A8-812A-4F13-81B0-928073E1C2C9}
+		{645A75FC-7BDF-41AB-83AC-6FD26F40991B} = {73326717-F054-4F5A-B552-F6EB33BD5185}
 	EndGlobalSection
 EndGlobal
